@@ -1,5 +1,5 @@
 FROM golang:latest
-WORKDIR /app
+WORKDIR /appp
 COPY go.mod go.sum ./
 RUN go mod download
 COPY . .
